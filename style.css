@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 50px 150px;
+    border: 1px solid purple;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
