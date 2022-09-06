@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(165, 165, 165);
+}
+main{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+.section{
+    width: 570px;
+    height: 590px;
+    background-color: white;
+    border-radius: 6px;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding-top: 35px;
+    padding-left: 36px;
+}
+.section .title{
+    font-family: 'Roboto';
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+}
+.section .contact__items{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+
+}
+.section .contact__item input,  .select .location__input{
+    width: 245px;
+    height: 38px;
+    background: white;
+    border: 1px solid #e4e4e4;
+    border-radius: 6px;
+    margin-right: 12px;
+    margin-top: 7px;
+}
+.section .subtitle__text, .footer__text{
+    font-family: 'Roboto';
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+    color:#969696;
+    margin-top: 7px;
+    font-weight: 400;
+}
+.subtitle__text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+}
+
+.contact__item, .email, .button__check, .location{
+    font-family: 'Roboto';
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing:  -0.2px;
+    color: #545454;
+    font-style: normal;
+}
+.section .button__check{
+    margin-top: 20px;
+}
+.section .button__check .label__button{
+    margin-right: 21px;
+}
+.location__wrapper{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+.contact__item, .location{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.section .email {
+    margin-top: 20px;
+}
+.inmail{
+    width: 500px;
+    height: 38px;
+    background: white;
+    border: 1px solid #e4e4e4;
+    border-radius: 6px;
+    margin-top: 7px;
+}
+
+.section .location__wrapper .select, .location__input{
+    width: 245px;
+    height: 38px;
+    border-radius: 6px;
+    border: 1px solid #e4e4e4;
+    color: #E4E4E4;
+    margin-right: 10px;
+}
+.section button{
+    width: 500px;
+    height: 38px;
+    border-radius: 6px;
+    border: 1px solid #e4e4e4;
+    color: #FFFFFF;
+    background-color: #007BFF;
+    font-family: 'Roboto';
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 28px;
+}
+.section .footer__text{
+    margin-top: 22px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 13px;
+    Line-height: 18px;  
+    letter-spacing: -0.1px;
+    vertical-align: top;
+}
+.section .footer__text .footer__link{
+    font-family: 'Inter';
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #007BFF;
+
+}
+.section .log__in{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.section .log__in a{
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-left: 20px;
+    color: #007BFF;
+    text-decoration: none;
+
+}
+.section .log__in p{
+    font-family: 'Roboto';
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.2px;
+    font-weight: 400;
+    color:#545454;
+}
+.section .first__name, .name, .email{
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #545454;
+}

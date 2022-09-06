@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css"> 
+    <link rel="stylesheet" href="style/reset.css"> 
+    <link rel="stylesheet" href="style/normalize.css"> 
+    <title>hw6</title>
+</head>
+<body>
+    <main>
+
+        <section class="section">
+            <form method ="get" action="index.php">
+                <h1 class="title">Create an Account</h1>
+                <div class="contact__items">
+                    <div class="contact__item">
+                        <label for="first__name">First Name</label>
+                        <input type="text" class="contact__fname" name="first_name" required>
+                    </div>
+                    <div class="contact__item">
+                        <label for="name">Last Name</label>
+                        <input type="text" class="contact__lname" name="last_name" required>
+                    </div>
+                </div>
+                <label for="email" class="email">E-mail</label>
+                <input class="inmail" name="email" type="text" required>
+                <p class="subtitle__text">We'll never share your email with anyone else.</p>
+                <div class="button__check">
+                    <input class="gender__radio" type="radio" name="gender" value="value" checked>
+                    <label class="label__button" for="male">Male</label>
+                    <input class="gender__radio" type="radio" name="gender" value="value" checked>
+                    <label class="label__button" for="female">Female</label>
+                </div>
+                <div class="location__wrapper">
+                    <div class="location">
+                        <label for="select">Country</label>
+                        <select name="Country" class="select">
+                            <option value="">Ukraine</option>
+                            <option value="">USA</option>
+                            <option value="">Germany</option>
+                            <option value="">Georgia</option>
+                        </select>
+                    </div>
+                    <div class="location">
+                        <label for="select">City</label>
+                        <input type="text" class="location__input">
+                    </div>
+                </div>
+                <button type="button">Sign Up</button> 
+                 <div class="footer__text">
+                    <p>By clicking the 'Sign Up' button, you confirm that you accept our <br>
+                        <a href="#" class="footer__link">Terms of Use</a>
+                        and
+                        <a href="#" class="footer__link">Privacy Policy</a>
+                    </p>
+                </div>
+                <div class="log__in">
+                    <p>Have an account</p>
+                    <a href="#"> Log in</a>
+                </div> 
+            </form>
+        </section>
+
+    </main>   
+</body>
+</html>
