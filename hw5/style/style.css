@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.1s ease-in;
+}
+html {
+    height: 100%;
+}
+html,
+body {
+    min-height: 100%;
+}
+body {
+    border: 25px solid #fff;
+    background-color: #3B3F45;
+    color: #F9F9F9;
+    font-size: 26px;
+    font-family:"Tebuchet MC", Arial, sans-serif ;
+    font-weight: 400;
+}
+.header{
+    text-align: center;
+    background: #4A4F56;
+    padding: 20px 0;
+    color: #eb7e7f;
+}
+
+h1 {
+    font-size: 36px;
+}
+h4 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #eb7e7f;
+}
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 40px 20px;
+}
+.shopping__list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 40px;
+}
+.shopping__list li:hover {
+    background: #625e77;
+    border-width: 4px 0;
+}
+.shopping__list li {
+    background: #7a7593;
+    border: 0 solid #fff;
+}
+.shopping__list li:nth-child(odd) {
+    background: #88839e;
+}
+.shopping__list li:active {
+    background: #eb7e7f;
+}
+.shopping__list [type="checkbox"] {
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.shopping__list [type="checkbox"]:checked + span {
+    text-decoration: line-through;
+    color: #a3a0b5;
+}
+
+.shopping__list label {
+    display: block;
+    cursor: pointer;
+    padding: 15px;
+}
+.shopping__list .list__info {
+    font-size: 60%;
+    color: #cdcbd6;
+    vertical-align: middle;
+}
+.footer{
+    margin: 0 auto;
+    text-align: center;
+    background: #4A4F56;
+    padding: 20px 0;
+    color: #eb7e7f;
+}
