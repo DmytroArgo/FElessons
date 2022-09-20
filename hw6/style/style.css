@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header a{
+    text-decoration: none;
+}
+.header__wrapper{
+    padding: 17px 0;   
+}
+.header__nav{
+    display: inline-block;
+    margin-right: 198px;
+    margin-left: 198px;
+}
+.header__nav a{
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2F281E;
+    transition: all 0.3 ease;
+}
+.header__nav a:hover{
+    color:#FF9900;
+    padding-left: 8px;
+}
+.header__nav a:nth-child(4){
+    margin-right: 0;
+}
+.header__buttons{
+    display: inline-block;
+}
+.header__buttons a{
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 13.5px 25px 13px 25px;
+    line-height: 19.5px;
+} 
+.header__buttons a:nth-child(1){
+    color:#2F281E;
+    border: 1px solid;
+    padding: 12.5px 24px 12px 24px;
+    margin-right: 32px;
+}
+.header__buttons a:nth-child(1):hover{
+    background-color:#BCD0E5;
+    transition: 0.5 ease ;
+}
+.header__buttons a:nth-child(2){
+    background-color: #FF9900;
+    color: #ffffff;
+    border: none;
+}
+.hero__content{
+    margin-top: 70px;
+}
+.left__side{
+    display: inline-block;
+    width: 500px;
+    height: 301px;
+    max-width: 100%;
+    margin-right: 56px;
+    margin-top: 97px;
+    vertical-align:top;
+    padding: 20px 0;
+}
+.left__side h1{
+    display: inline-block;
+    width: 500px;
+    max-width: 100%;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #2F281E;
+}
+.left__side p{
+    display: inline-block;
+    width: 500px;
+    max-width: 100%;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #544837;
+    text-align: left;
+}
+.right__side{
+    display: inline-block;
+    width: 644px;
+    max-width: 100%;
+    max-width: 50%;
+}
+.left__side a{
+    display: inline-block;
+    padding: 13px 43.5px;
+    background-color: #FF9900;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.features{
+    padding: 100px 0 78px;
+    background-image:url(../images/bg.png) ;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100%;
+}
+.features h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color:#2F281E;
+    max-width: 539px;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+.features__inner{
+    display: flex;
+    column-gap: 40px;
+    max-width: 100%;
+}
+.features__items{
+    width: 25%;
+}
+
+.features img{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.features h3{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #2F281E;
+    margin-bottom: 16px;
+}
+.features__button{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.features .button{
+    background: #FF9900;
+    border-radius: 4px;
+    padding:13px 39.5px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    display: inline-block;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    padding: 70px 0;
+}
+.footer__col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer__col h4{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #2F281E;
+    margin-bottom: 30px;
+    position: relative;
+}
+.footer__col ul li{
+    margin-bottom: 15px;
+}
+.footer__col ul li:last-child{
+    margin-bottom: 0;
+}
+.footer__col ul li a{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #544837;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3 ease;
+    text-transform: capitalize;
+}
+.footer__col ul li a:hover{
+    color: #FF9900;
+    margin-left: 8px;
+}
+.footer__col input{
+    padding: 0px 10px;
+    border-radius: 4px;
+    width: 340px;
+    height: 50px;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    color: #BCD0E5;
+    margin-top: -10px;
+    opacity: 40%;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    font-family: 'Montserrat';
+}
+.footer__col .button{
+    display: inline-block;
+    margin-top: 25px;
+    padding: 13px 40px;
+    background-color: #FF9900;
+    color: #ffffff;
+    border-radius: 4px;
+    text-decoration: none;
+}
