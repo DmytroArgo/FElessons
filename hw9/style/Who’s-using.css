@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+:root {
+    --text: #000000;
+}
+a:visited{
+    color: #000000;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 13px 0;
+    background-color: #FFF;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__pages {
+    display: flex;
+    flex-direction: row;
+}
+
+.header__page {
+    font-family: 'Staatliches';
+    font-size:22px;
+    Line-height: 28px;
+    line-height: 100%;
+    letter-spacing: 3%;
+}
+
+.header__page+.header__page {
+    margin-left: 10px;
+}
+
+.header__text {
+    display: flex;
+}
+.header__language {
+    font-family: 'Tourney', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 18px;
+    margin-right: 50px;
+}
+.main__title{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 4%;
+    font-weight: 600;
+    margin-left: 120px;
+}
+.main__title::before{
+    content: '';
+    width: 100px;
+    height: 8px;
+    background-color: var(--text);
+    position: absolute;
+    top: 20px;
+    left: -120px;
+}
+.social__block{
+    margin-top: 60px;
+    padding: 20px 15px;
+    border-top: 1px solid #BDBDBD;
+    border-bottom: 1px solid #BDBDBD;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    column-gap:30px;
+    row-gap: 30px;
+}
+.social__card{
+    padding: 70px 35px;
+    width: 270px;
+    background-color:#E6E6E6;
+    border-radius: 8px;
+    max-height: 180px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s ease;
+}
+.social__card:hover{
+    background-color: #1A1A1A;
+    stroke: white;
+}
+.social__card:hover{
+    fill: azure;
+    stroke: #FFF;
+}
