@@ -12,3 +12,8 @@ body{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
+main{
+    margin-top: 200px;
+    text-align: center;
+    display: flex;
+}
