@@ -1,0 +1,89 @@
+.content__block {
+    display: flex;
+    min-height: 560px;
+}
+
+.content__left {
+    padding-right: 65px;
+    border-right: 1px solid $gold;
+    height: 560px;
+    padding: 65px 85px 64px 0;
+}
+
+.content__wrapper {
+    position: relative;
+}
+
+.content__image {}
+
+.content__right {
+    padding: 70px 70px 70px 85px;
+}
+
+.content__info {
+    text-align: center;
+}
+
+.content__title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 100%;
+    color: $baseTxtClr;
+    margin-bottom: 30px;
+    position: relative;
+    &::after{
+        content: '';
+        width: 100px;
+        border-top: 1px solid $gold;
+        position: absolute;
+        bottom: -30px;
+        right: 165px;
+    }
+
+}
+
+.content__position {
+    margin-top: 30px;
+}
+.content__socials {}
+
+.content__social {}
+
+.content__text {}
+
+.content__button {}
+
+.borders {
+    position: absolute;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.t-l {
+    border-top: 1px solid $gold;
+    border-left: 1px solid $gold;
+    top: -15px;
+    left: -15px;
+}
+
+.t-r {
+    border-top: 1px solid $gold;
+    border-right: 1px solid $gold;
+    top: -15px;
+    right: -15px;
+}
+
+.b-l {
+    border-bottom: 1px solid $gold;
+    border-left: 1px solid $gold;
+    bottom: -15px;
+    left: -15px;
+}
+
+.b-r {
+    border-bottom: 1px solid $gold;
+    border-right: 1px solid $gold;
+    bottom: -15px;
+    right: -15px;
+}

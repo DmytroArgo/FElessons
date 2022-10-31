@@ -1,0 +1,107 @@
+.features-block {
+    &__header {
+        text-align: center;
+    }
+
+    &__title {
+        @extend .title;
+        color: $titlecolor;
+        margin-bottom: 50px;
+    }
+
+    &__subtitle {
+        @extend .subtitle;
+    }
+
+    &__body {
+        margin-top: 80px;
+        max-width: 100%;
+
+    }
+
+    &__column {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    &__item {
+        display: flex;
+        position: relative;
+    }
+
+    &__card {
+        max-width: 50%;
+        min-height: 400px;
+        text-align: right;
+        position: relative;
+        display: flex;
+        justify-content: right;
+        margin-bottom: 50px;
+    }
+
+    &__details {
+        width: 70%;
+        height: 100%;
+        border-radius: 50px;
+        text-align: left;
+        padding: 63px 86px 62px 80px;
+
+        h3 {
+            font-size: 24px;
+            line-height: 130%;
+            font-weight: 400;
+            color: #212353;
+            margin-bottom: 20px;
+        }
+
+        p {
+            display: block;
+            font-size: 16px;
+            line-height: 160%;
+            font-weight: 400;
+            color: #4B5D68;
+            min-height: 180px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .button {
+        display: flex;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 160%;
+        letter-spacing: 0.5%;
+        color: $titlecolor;
+        cursor: pointer;
+    }
+
+    .button img {
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+    &__image {
+        position: absolute;
+        top: 35%;
+        left: 0;
+    }
+}
+
+.green__light {
+    background-color: #F0FAF9;
+}
+
+.purple__light {
+    background-color: #F6F0FD;
+}
+
+.purple__mid {
+    background-color: #FEF0F8;
+}
+
+.green__lite {
+    background-color: #EAF6FC;
+}

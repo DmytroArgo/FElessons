@@ -1,0 +1,56 @@
+.main {
+    @extend .container;
+
+    &-block__container {
+        margin: 100px 0;
+    }
+
+    &-block__body {
+        position: relative;
+        padding-bottom: 30px;
+    }
+
+    &-block__title {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 110%;
+        max-width: 601px;
+        color: $titlecolor;
+    }
+
+    &-block__text {
+        max-width: 370px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 160%;
+        color: $textcolor;
+        margin: 50px 0;
+    }
+
+    &-block__button {
+        padding: 16px 52px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+        background-color: #9C69E2;
+        border-radius: 50px;
+        box-shadow: rgba(75, 93, 104, 0.1);
+        transition: .3s ease;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #9747FF;
+        }
+    }
+
+    &-block__image {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -10;
+    }
+
+}

@@ -1,0 +1,31 @@
+.second-block {
+    &__container {
+        @extend .container;
+        background-color: #FDE8F5;
+        border-radius: 50px;
+        margin: 96px 0 124px;
+    }
+
+    &__body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 130px;
+        padding: 79px 69px 71px 71px;
+    }
+
+    &__info {
+        max-width: 500px;
+        max-height: 340px;
+    }
+
+    &__title {
+        @extend .title;
+        color: $titlecolor;
+        margin-bottom: 40px;
+    }
+
+    &__text {
+        @extend .subtitle;
+    }
+}

@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container, .main__container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.main__container {
+  padding: 65px 70px;
+}
+.main__header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.main__text {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 114%;
+  color: #666666;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.main__title {
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 94%;
+  color: #FFCC00;
+  text-transform: uppercase;
+}
+.main__lines {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__line {
+  width: 210px;
+  border-top: 2px solid #FFCC00;
+}
+.main__logo {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.main__body {
+  margin-top: 40px;
+}
+
+.content__block {
+  display: flex;
+  min-height: 560px;
+}
+
+.content__left {
+  padding-right: 65px;
+  border-right: 1px solid #FFCC00;
+  height: 560px;
+  padding: 65px 85px 64px 0;
+}
+
+.content__wrapper {
+  position: relative;
+}
+
+.content__right {
+  padding: 70px 70px 70px 85px;
+}
+
+.content__info {
+  text-align: center;
+}
+
+.content__title {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 100%;
+  color: #666666;
+  margin-bottom: 30px;
+  position: relative;
+}
+.content__title::after {
+  content: "";
+  width: 100px;
+  border-top: 1px solid #FFCC00;
+  position: absolute;
+  bottom: -30px;
+  right: 165px;
+}
+
+.content__position {
+  margin-top: 30px;
+}
+
+.borders {
+  position: absolute;
+  min-width: 100px;
+  min-height: 100px;
+}
+
+.t-l {
+  border-top: 1px solid #FFCC00;
+  border-left: 1px solid #FFCC00;
+  top: -15px;
+  left: -15px;
+}
+
+.t-r {
+  border-top: 1px solid #FFCC00;
+  border-right: 1px solid #FFCC00;
+  top: -15px;
+  right: -15px;
+}
+
+.b-l {
+  border-bottom: 1px solid #FFCC00;
+  border-left: 1px solid #FFCC00;
+  bottom: -15px;
+  left: -15px;
+}
+
+.b-r {
+  border-bottom: 1px solid #FFCC00;
+  border-right: 1px solid #FFCC00;
+  bottom: -15px;
+  right: -15px;
+}/*# sourceMappingURL=style.css.map */
